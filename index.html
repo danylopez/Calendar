@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/fullcalendar.min.css" rel="stylesheet" media="screen">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<select id="show" class="form-control" name="sucursales">
+            <option value="" disabled>Sucursales</option>
+            <option value="aleira">Aleira </option>
+            <option value="avila">Avila Camacho </option>
+            <option value="canadas">Cañadas </option>
+            <option value="iteso">ITESO</option>
+            <option value="oblatos">Oblatos </option>
+            <option value="villas">Las Villas </option>
+          </select>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<select id="actividades" class="form-control" name="actividades">
+            <option value="">Activities</option>
+          </select>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<select id="instructores" class="form-control" name="instructores">
+            <option value="">Instructors</option>
+          </select>
+			</div>
+		</div>
+		<br>
+		<div id="divcalendar" class="row">
+			<div id="calendar"></div>
+		</div>
+	</div>
+</body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Librería de Bootstrap requerida por los plugins de JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Librería moment requerida por los plugins de FullCalendar -->
+<script src="js/moment.min.js"></script>
+<!-- Librería de FullCalendar requerida por los plugins de JavaScript -->
+<script src="js/fullcalendar.min.js"></script>
+<!-- Librería gcal requerida por los plugins de FullCalendar -->
+<script src="js/gcal.js"></script>
+<!-- Librería bootbox requerida para las alertas-->
+<script src="js/bootbox.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
