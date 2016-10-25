@@ -1,5 +1,5 @@
 //Llave de GoogleMaps
-var keyAPI = "";
+var keyAPI = "AIzaSyC4J7dbF82BnnldmAY5MvOkdi_VFKGU-kE";
 
 $(document).ready(function () {
   blockSelect();
@@ -120,7 +120,7 @@ function loadInstructors() {
     return (at > bt) ? 1 : ((at < bt) ? -1 : 0);
   }));
 
-  $('#instructores').prepend('<option value="opciones">Instructores</option>'); //insertar el nodo de opciones
+  $('#instructores').prepend('<option value="opciones">Instructors</option>'); //insertar el nodo de opciones
   $('#instructores').prop('disabled', false);
   $('#instructores').val("opciones"); //valor incial
 }
@@ -145,7 +145,7 @@ function loadActivities() {
     return (at > bt) ? 1 : ((at < bt) ? -1 : 0);
   }));
 
-  $('#actividades').prepend('<option value="opciones">Actividades</option>'); //insertar el nodo de opciones
+  $('#actividades').prepend('<option value="opciones">Activities</option>'); //insertar el nodo de opciones
   $('#actividades').prop('disabled', false);
   $('#actividades').val("opciones"); //valor incial
 }
