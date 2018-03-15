@@ -1,5 +1,5 @@
 //Llave de GoogleMaps
-var keyAPI = "AIzaSyC4J7dbF82BnnldmAY5MvOkdi_VFKGU-kE";
+var keyAPI = "";
 
 $(document).ready(function () {
   blockSelect();
